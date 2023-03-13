@@ -1,0 +1,78 @@
+.postImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 5px;
+}
+
+.post {
+  font-family: san-serif;
+  -webkit-box-shadow: 4px 5px 6px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 5px 6px 4px rgba(0, 0, 0, 0.25);
+  margin: 30px 0;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.postTop {
+  margin-top: 20px;
+  margin-left: 15px;
+  display: flex;
+  align-content: center;
+}
+
+.postUserName {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.postTime {
+  font-size: 10px;
+  margin: 10px;
+}
+
+.postCenter {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.postCaption {
+  font-size: 15px;
+}
+
+.postCenterImg {
+  width: 98%;
+  background-size: cover;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.reaction {
+  width: 50px;
+  height: 50px;
+}
+
+.postBottomLeft {
+  align-items: center;
+  display: flex;
+}
+
+.postBottom {
+  width: 98%;
+  align-items: center;
+  display: flex;
+  margin-left: 5px;
+  justify-content: space-between;
+}
+
+.apply {
+  background-color: rgb(23, 6, 39);
+  color: rgb(247, 242, 242);
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
